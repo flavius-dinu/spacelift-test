@@ -9,3 +9,9 @@ resource "null_resource" "test2" {
     command = "echo Hello Spacelift v2"
   }
 }
+
+resource "null_resource" "test3" {
+  provisioner "local-exec" {
+    command = "echo Hello Spacelift v2"
+  }
+}
