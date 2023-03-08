@@ -21,3 +21,7 @@ resource "null_resource" "test4" {
     command = "echo Hello Spacelift v4"
   }
 }
+
+output "test" {
+  value = 2
+}
